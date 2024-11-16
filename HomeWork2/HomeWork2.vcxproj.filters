@@ -24,6 +24,9 @@
     <ClCompile Include="DeviceList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="test2User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Device.h">

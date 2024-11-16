@@ -19,6 +19,7 @@ enum DeviceType { PHONE, PC, LAPTOP, TABLET };		     //
 														 //
 /// ///////////////////////////////////////////////////////
 
+#include <string>
 
 #pragma once
 class Device

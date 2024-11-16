@@ -18,5 +18,5 @@ public:
     unsigned int getAge() const;
     DevicesList& getDevices();
     void addDevice(Device newDevice);
-    bool CheckIfDevicesAreOn() const;
+    bool checkIfDevicesAreOn() const;
 };
