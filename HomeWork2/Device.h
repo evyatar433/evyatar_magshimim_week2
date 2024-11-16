@@ -1,5 +1,5 @@
 #pragma once
-#include <string>
+
 
 ///////////////////////////////////////////////////////////
 /*														 //
@@ -24,18 +24,19 @@ enum DeviceType { PHONE, PC, LAPTOP, TABLET };		     //
 class Device
 {
 private:
-	unsigned int _id;
-    DeviceType _type;
-    std::string _os;
-    bool _isActive = false;
+
+	unsigned int _Id;
+    DeviceType _Type;
+    std::string _Os;
+    bool _IsActive = false;
 
 public:
 	void init(unsigned int id, DeviceType type, std::string os);
 	std::string getOS() const;
-	bool isActive();
+	bool isActive() const;
 	void activate();
-	unsigned int getID();
+	unsigned int getID() const;
 	void deactivate();
-	DeviceType getType();
+	DeviceType getType() const;
 };
 

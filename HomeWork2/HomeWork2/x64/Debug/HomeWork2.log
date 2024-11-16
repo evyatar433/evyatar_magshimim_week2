@@ -1,3 +1,8 @@
 ﻿  Device.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\x64\Debug\HomeWork2.exe : fatal error LNK1120: 1 unresolved externals
+  test1Device.cpp
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test1Device.cpp(18,10): warning C4005: 'PURPLE': macro redefinition
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test1Device.cpp(12,10):
+      see previous definition of 'PURPLE'
+  
+  Generating Code...
+  HomeWork2.vcxproj -> C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\x64\Debug\HomeWork2.exe
