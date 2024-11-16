@@ -1,2 +1,38 @@
-﻿  User.cpp
-  HomeWork2.vcxproj -> C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\x64\Debug\HomeWork2.exe
+﻿  Device.cpp
+  DeviceList.cpp
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'DeviceList.cpp')
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,17): error C3646: '_Os': unknown override specifier
+  (compiling source file 'DeviceList.cpp')
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'DeviceList.cpp')
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'DeviceList.cpp')
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2061: syntax error: identifier 'string'
+  (compiling source file 'DeviceList.cpp')
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,7): error C2039: 'string': is not a member of 'std'
+  (compiling source file 'DeviceList.cpp')
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
+      see declaration of 'std'
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,14): error C3646: 'getOS': unknown override specifier
+  (compiling source file 'DeviceList.cpp')
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,19): error C2059: syntax error: '('
+  (compiling source file 'DeviceList.cpp')
+  
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'DeviceList.cpp')
+  
+  Page.cpp
+  User.cpp
+  Generating Code...

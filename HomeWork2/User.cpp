@@ -11,21 +11,25 @@ void User::init(unsigned int id, std::string username, unsigned int age)
     _Age = age;
     _UserDevices = 0;
 }
+
 // clear list
 void User::clear()
 {
     _MyDevices.clear();
 }
+
 // get the user id
 unsigned int User::getID() const
 {
     return _Id;
 }
+
 // get the user name
 std::string User::getUserName() const
 {
     return _Username;
 }
+
 // get the user age
 unsigned int User::getAge() const
 {
