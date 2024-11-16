@@ -8,12 +8,12 @@ void Page::init()
 	_posts = "";
 }
 
-std::string Page::getPosts()
+std::string Page::getPosts() const
 {
 	return _posts;
 }
 
-std::string Page::getStatus()
+std::string Page::getStatus() const
 {
 	return _status;
 }
