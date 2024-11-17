@@ -17,6 +17,6 @@ public:
     std::string getUserName() const;
     unsigned int getAge() const;
     DevicesList& getDevices();
-    void addDevice(Device newDevice);
+    void addDevice(Device& newDevice);
     bool checkIfDevicesAreOn() const;
 };

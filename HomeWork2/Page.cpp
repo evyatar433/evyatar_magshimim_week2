@@ -2,34 +2,41 @@
 #include <string>
 #include "Page.h"
 
+// init page attributes
 void Page::init()
 {
-	_status = "";
-	_posts = "";
+	_Status = "";
+	_Posts = "";
 }
 
+// init page attributes
 std::string Page::getPosts() const
 {
-	return _posts;
+	return _Posts;
 }
 
+// return the status 
 std::string Page::getStatus() const
 {
-	return _status;
+	return _Status;
 }
 
+// clear page
 void Page::clearPage()
 {
-	_posts = "";
+	_Posts = "";
 }
 
-void Page::setStatus(std::string status)
+// edit status
+void Page::setStatus(std::string& status)
 {
-	_status = status;
+	_Status = status;
 }
 
-void Page::addLineToPosts(std::string new_line)
+// add new post
+void Page::addLineToPosts(std::string& new_line)
 {
 	std::string newPost = new_line;
-	_posts = _posts + newPost;
+	_Posts = _Posts + newPost;
 }
+

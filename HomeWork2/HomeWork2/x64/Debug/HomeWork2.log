@@ -1,131 +1,24 @@
-﻿  DeviceList.cpp
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'DeviceList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,17): error C3646: '_Os': unknown override specifier
-  (compiling source file 'DeviceList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'DeviceList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'DeviceList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2061: syntax error: identifier 'string'
-  (compiling source file 'DeviceList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'DeviceList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,14): error C3646: 'getOS': unknown override specifier
-  (compiling source file 'DeviceList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,19): error C2059: syntax error: '('
-  (compiling source file 'DeviceList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,27): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'DeviceList.cpp')
-  
+﻿  Page.cpp
   Profile.cpp
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(7,10): error C3646: '_Owner': unknown override specifier
-  (compiling source file 'Profile.cpp')
+  test3Profile.cpp
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(18,9): warning C4005: 'PURPLE': macro redefinition
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(12,9):
+      see previous definition of 'PURPLE'
   
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'Profile.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(11,15): error C2061: syntax error: identifier 'User'
-  (compiling source file 'Profile.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(12,10): error C3646: 'getOwner': unknown override specifier
-  (compiling source file 'Profile.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(12,18): error C2059: syntax error: '('
-  (compiling source file 'Profile.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(12,20): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'Profile.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.cpp(6,15): error C2511: 'void Profile::init(User)': overloaded member function not found in 'Profile'
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(3,7):
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(120,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(122,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(139,32): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(427,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(430,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(433,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(437,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(489,14): error C2039: 'changeAllWordsInStatus': is not a member of 'Profile'
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(5,7):
       see declaration of 'Profile'
   
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.cpp(8,5): error C2065: '_Owner': undeclared identifier
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.cpp(16,15): error C2039: 'getOwner': is not a member of 'Profile'
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(3,7):
+C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(528,14): error C2039: 'changeWordInStatus': is not a member of 'Profile'
+      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(5,7):
       see declaration of 'Profile'
   
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.cpp(18,12): error C2065: '_Owner': undeclared identifier
-  UserList.cpp
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,17): error C3646: '_Os': unknown override specifier
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(29,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(33,51): error C2061: syntax error: identifier 'string'
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,7): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,14): error C3646: 'getOS': unknown override specifier
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,19): error C2059: syntax error: '('
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Device.h(34,27): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(7,10): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(7,17): error C3646: '_Username': unknown override specifier
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(7,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(14,37): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(14,37): error C2061: syntax error: identifier 'string'
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(17,10): error C2039: 'string': is not a member of 'std'
-  (compiling source file 'UserList.cpp')
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\predefined C++ types (compiler internal)(347,11):
-      see declaration of 'std'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(17,17): error C3646: 'getUserName': unknown override specifier
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(17,28): error C2059: syntax error: '('
-  (compiling source file 'UserList.cpp')
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\User.h(17,36): error C2238: unexpected token(s) preceding ';'
-  (compiling source file 'UserList.cpp')
-  
+  User.cpp
   Generating Code...

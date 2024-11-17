@@ -3,7 +3,7 @@
 #include "User.h"
 #include "DeviceList.h"
 
-// get list of all devices
+// init user attributes
 void User::init(unsigned int id, std::string username, unsigned int age)
 {
     _Id = id;
@@ -12,7 +12,7 @@ void User::init(unsigned int id, std::string username, unsigned int age)
     _UserDevices = 0;
 }
 
-// clear list
+// clear devices list
 void User::clear()
 {
     _MyDevices.clear();
@@ -43,7 +43,7 @@ DevicesList& User::getDevices()
 }
 
 // add device to the list
-void User::addDevice(Device newDevice)
+void User::addDevice(Device& newDevice)
 {
     _MyDevices.add(newDevice);
     _UserDevices += 1;
