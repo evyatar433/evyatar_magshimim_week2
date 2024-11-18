@@ -9,7 +9,7 @@ private:
     User _Owner;
     Page _Page;
     UserList _MyFriends;
-    unsigned int _ProfileFriends;
+    DevicesList _MyDevices;
 public:
 
     void init(User owner);  
@@ -21,7 +21,7 @@ public:
     std::string getPage() const;
     std::string getFriends() const;
     std::string getFriendsWithSameNameLength() const;
-    //void changeAllWordsInStatus(std::string word);
-    //void changeWordInStatus(std::string word_to_replace,std::string new_word);
+    void changeAllWordsInStatus(std::string word); 
+    void changeWordInStatus(std::string word_to_replace,std::string new_word);
 
 };

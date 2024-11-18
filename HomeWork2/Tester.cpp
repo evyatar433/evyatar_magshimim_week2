@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h> // WinApi header - needed for setting console color
 #include <random>
-
+#include "Profile.h"
 #include "SocialNetwork.h"
 
 using std::cout;

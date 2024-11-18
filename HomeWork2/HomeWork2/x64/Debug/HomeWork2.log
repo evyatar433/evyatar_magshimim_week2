@@ -1,24 +1,2 @@
-﻿  Page.cpp
-  Profile.cpp
-  test3Profile.cpp
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(18,9): warning C4005: 'PURPLE': macro redefinition
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(12,9):
-      see previous definition of 'PURPLE'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(120,32): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(122,36): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(139,32): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(427,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(430,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(433,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(437,27): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(489,14): error C2039: 'changeAllWordsInStatus': is not a member of 'Profile'
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(5,7):
-      see declaration of 'Profile'
-  
-C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\test3Profile.cpp(528,14): error C2039: 'changeWordInStatus': is not a member of 'Profile'
-      C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\Profile.h(5,7):
-      see declaration of 'Profile'
-  
-  User.cpp
-  Generating Code...
+﻿  Profile.cpp
+  HomeWork2.vcxproj -> C:\Users\Cyber_User\OneDrive\Magshimim\c++\evyatar_magshimim_week2\HomeWork2\x64\Debug\HomeWork2.exe
