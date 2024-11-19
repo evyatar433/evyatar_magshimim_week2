@@ -28,15 +28,15 @@ void Page::clearPage()
 }
 
 // edit status
-void Page::setStatus(std::string& status)
+void Page::setStatus(std::string status)
 {
 	_Status = status;
 }
 
 // add new post
-void Page::addLineToPosts(std::string& new_line)
+void Page::addLineToPosts(std::string new_line)
 {
 	std::string newPost = new_line;
-	_Posts = _Posts + newPost;
+	_Posts = _Posts + newPost +"\n";
 }
 

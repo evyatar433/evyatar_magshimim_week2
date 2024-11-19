@@ -50,12 +50,10 @@ bool SocialNetwork::addProfile(Profile profile_to_add)
 std::string SocialNetwork::getWindowsDevices() const
 {
     ProfileNode* currentProfile = _Profiles.get_first();
-    std::string windowsDevices;
-
+    std::string windowsDevices = "";
     while (currentProfile != nullptr)
     {
         UserNode* currentUser = _MyFriends.get_first();
-
         while (currentUser != nullptr)
         {
             DeviceNode* currentDevice = _MyDevices.get_first();
@@ -67,18 +65,15 @@ std::string SocialNetwork::getWindowsDevices() const
                 {
                     unsigned int id = device.getID();
                     std::string os = device.getOS();
-                    /*windowsDevices += "["+ id + os +  "]";*/
-                    windowsDevices = "dfwwafrewrwrweerwrw";
+                    windowsDevices += "[" + std::to_string(id) + os + "]";
                 }
                 currentDevice = currentDevice->get_next();
             }
+
             currentUser = currentUser->get_next();
         }
 
         currentProfile = currentProfile->get_next();
     }
-
     return windowsDevices;
 }
-
-    

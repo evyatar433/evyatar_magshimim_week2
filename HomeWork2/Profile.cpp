@@ -45,28 +45,30 @@ void Profile::addFriend(User friend_to_add)
 // return profile page
 std::string Profile::getPage() const
 {
-    return "Status: " + _Page.getStatus() +"\n*******************\n*******************" "\nPosts:\n" + _Page.getPosts();
+   return "Status: " + _Page.getStatus() +"\n*******************\n*******************\n" + _Page.getPosts();
 }
 
 // return profile friends
 std::string Profile::getFriends() const
 {
     UserNode* current = _MyFriends.get_first();
-    std::string friends = "";
+    std::string friends;
 
     while (current != nullptr)
     {
         User userData = current->get_data();
         friends += userData.getUserName();
         current = current->get_next();
-        if (current != nullptr)  // add , only if there's another friend
+
+        if (current != nullptr)  // Add a comma only if there's another friend
         {
-            friends += ", ";
+            friends += ",";
         }
     }
 
     return friends;
 }
+
 
 
 // return profile friends with same length
@@ -84,7 +86,7 @@ std::string Profile::getFriendsWithSameNameLength() const
         {
             if (!friendsWithSameLen.empty())
             {
-                friendsWithSameLen += ", ";
+                friendsWithSameLen += ",";
             }
             friendsWithSameLen += tempName;
         }

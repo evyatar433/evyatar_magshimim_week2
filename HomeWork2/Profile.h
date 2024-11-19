@@ -9,7 +9,6 @@ private:
     User _Owner;
     Page _Page;
     UserList _MyFriends;
-    DevicesList _MyDevices;
 public:
 
     void init(User owner);  
